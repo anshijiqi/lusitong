@@ -301,7 +301,12 @@
 		</div>
 	</div>
 
-	<audio id="bgmMusic" src="a/a.mp3" autoplay="autoplay" loop="loop" preload="auto" type="audio/mp3"></audio>
+	
+<object data="a/a.mp3" type="application/x-mplayer2" width="0" height="0">
+  	<param name="src" value="a/a.mp3">
+  	<param name="autostart" value="1">
+ 	 <param name="playcount" value="infinite">
+  </object>
     
 	<script src="a/jquery.js"></script>
 	<script src="a/all.js" tppabs="http://aijava.cn/demo/love/2014/js/all.min.js"></script>
